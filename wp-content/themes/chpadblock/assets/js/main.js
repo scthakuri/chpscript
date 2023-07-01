@@ -248,4 +248,9 @@
       	});
         $temp.remove();
     });
+
+    const upblockModal = $(document).find("#upblockModal");
+    if( upblockModal.length > 0 ){
+        upblockModal.modal("show");
+    }
 })(jQuery);
