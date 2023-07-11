@@ -251,10 +251,10 @@
 
     
 
-    $(window).on('load', function() {
-        const upblockModal = $(document).find("#upblockModal");
-        if( upblockModal.length > 0 ){
-            upblockModal.modal("show");
-        }
-    });
+    // $(window).on('load', function() {
+    //     const upblockModal = $(document).find("#upblockModal");
+    //     if( upblockModal.length > 0 ){
+    //         upblockModal.modal("show");
+    //     }
+    // });
 })(jQuery);
